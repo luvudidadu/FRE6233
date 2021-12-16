@@ -3,7 +3,7 @@
 #include <type_traits>
 
 namespace fms::monte_carlo {
-
+	int a = 1;
 	// Numerically stable average.
 	// s_n = (x_1 + ... + x_n)/n
 	// n s_n - (n-1) s_{n-1} = x_n
